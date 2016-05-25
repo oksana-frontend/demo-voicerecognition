@@ -1,0 +1,311 @@
+body{
+	
+	display:flex;
+	flex-direction: column;
+}
+
+
+nav{
+	background-color:#30bae7;
+	display:flex;
+	justify-content:space-around;
+	 align-items: center;
+	 flex-wrap:wrap;
+
+}
+
+ .nav-header{
+	padding:15px;
+}
+
+.nav-brand{
+	color:#fff;
+	font-family: 'Tangerine', cursive;
+	font-size:2em;
+	font-weight:900;
+	align-self:flex-start;
+}
+
+ .nav-brand span{
+	font-size:0.5em;
+}
+
+ .nav-ul ul{
+	display:flex;
+	 justify-content:space-between;
+	  align-items: center;
+	  list-style:none;
+	  flex-wrap:wrap;
+
+}
+
+ .nav-ul ul li{
+	margin-right:25px;
+	color:#fff;
+}
+
+ /*.nav-ul ul a{
+	text-decoration:none;
+	color:#fff;
+	padding:10px;
+	text-transform:uppercase;
+}*/
+
+ /*.nav-ul ul a:hover,
+ .nav-ul ul a:focus
+{
+	
+	background-color:#fff;
+	color:#30bae7;
+	border-radius:5px;
+	font-size:1em;
+}*/
+
+
+.effect-1{
+	padding:20px 0;
+    margin: 0 auto;
+    text-align: center;
+	
+}
+
+.effect-1 a{
+	text-decoration:none;
+	color:#fff;
+	padding:10px;
+	text-transform:uppercase;
+	transition:border-bottom 2s ease;
+	
+}
+
+.effect-1 a::after{
+	
+}
+
+.effect-1 a:hover,
+.effect-1 a:focus{
+	border-bottom:4px solid #fff;
+	font-weight:bold;
+}
+
+/*достопримечательности*/
+.sights{
+	
+}
+
+h2{
+	text-align:center;
+	font-weight:bold;
+	text-transform:uppercase;
+	color:#30bae7;
+	margin-bottom:50px;
+	
+}
+
+.effect-2{
+	margin: 0 auto;
+    padding: 30px 0;
+    text-align: center;
+	
+}
+.effect-2::after{
+	content:'';
+	background-color:#30bae7;
+	
+	height:4px;
+	position:absolute;
+	
+	
+}
+
+
+/*taxi*/
+.taxi a{
+	color:#000;
+}
+
+/*рестораны*/
+.restaurants{
+	display:flex;
+	background-color:#f5f6f8;
+	flex-direction:column;
+	padding:20px;
+}
+
+
+.restaurants, 
+.shop,
+.taxi,
+.program{
+	background-color:#f5f6f8;
+}
+.div-row{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-around;
+}
+.flex-div{
+	background-color:#fff;
+	display:flex;
+	flex-direction:column;
+	padding:15px 10px;
+	border:2px solid #686868;
+	border-radius:5px 5px 0 0;
+	margin-right:20px;
+	margin-bottom:20px;
+	width:300px;
+}
+
+
+.program .flex-div{
+	width:500px;
+}
+
+
+.taxi .flex-div{
+	width:250px;
+}
+
+.flex-div:hover,
+.flex-div:focus{
+	-webkit-filter:drop-shadow(2px 2px 5px #5a5b5c);	
+}
+
+.info{
+	padding:5px 0;
+}
+
+ figure{
+	text-align:center;
+}
+
+h4{
+	color:#567e93;
+	text-align:center;
+	text-transform:uppercase;
+	border-bottom:2px solid #80a6b1;
+	padding-bottom:20px;
+	-webkit-filter:drop-shadow(1px 1px 1px #38acec);
+	
+	
+}
+
+a{
+	text-decoration:none;
+}
+
+
+/*footer*/
+.foot{
+	background-color:#30bae7;
+	display:flex;
+	justify-content:space-around;
+	 align-items: center;
+	 flex-wrap:wrap;
+	
+}
+
+/*table*/
+.table{
+	display:table;
+}
+
+
+.table-row{
+	display:table-row;
+}
+
+.table-cell:last-child{
+	text-align:left;
+}
+
+.table-cell{
+	display:table-cell;
+	padding:5px;
+	text-align:center;
+}
+
+
+.table-header-group{
+	display:table-header-group;
+	font-weight:bold;
+	font-size:1em;
+}
+
+.table-column-group{
+	display:table-column-group;
+}
+
+ 
+ 
+ .4square-rating{
+	
+ }
+ 
+ .how-to-get{
+	 background-color:#97dddd;
+	 padding:5px;
+	 border-radius:5px;
+	 margin:5px 0;
+ }
+ address{
+	 font-weight:bold;
+	 font-size:1em;
+ }
+ 
+ .address{
+	 padding:5px 0;
+ }
+
+
+/*metro*/
+.map-metro{
+	text-align:center;
+	
+}
+
+	
+
+.map-metro img{
+	width:300px;
+}
+
+
+.taxi,
+.sights,
+.coffee,
+.restaurants,
+.shop,
+.program,
+.map-metro{
+padding:50px 0;
+}
+
+
+/*speech recognition*/
+#search{
+	display:flex;
+	justify-content:space-around;
+	 padding:20px 0;
+}
+
+form{
+	
+}
+.speech {border: 1px solid #DDD;
+width: 500px; margin: 0}
+  .speech input {
+	  border: 0; width: 440px;
+	  display: inline-block; 
+	  height: 40px;border:2px solid ##264471;  }
+  .speech img {
+	  float: right;
+  width: 40px }
+  
+  
+  /*search*/
+  #search img{
+	  background-color:#dd4132;
+	  border-radius:50%;
+  }
